@@ -1,0 +1,9 @@
+.navbar-item {
+  padding-right: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-item {
+    padding-right: 0;
+  }
+}
