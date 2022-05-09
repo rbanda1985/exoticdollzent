@@ -13,8 +13,9 @@ import {
 
 const Navbar = () => {
   const [showNavCentred, setShowNavCentred] = useState(false);
+  
   return (
-    <MDBNavbar expand='lg' light bgColor='light'>
+    <MDBNavbar expand='lg' dark bgColor='dark' className='navbar-style'>
       <MDBContainer fluid>
         <MDBNavbarToggler
           type='button'
@@ -23,6 +24,7 @@ const Navbar = () => {
           aria-expanded='false'
           aria-label='Toggle navigation'
           onClick={() => setShowNavCentred(!showNavCentred)}
+          
         >
           <MDBIcon icon='bars' fas />
         </MDBNavbarToggler>

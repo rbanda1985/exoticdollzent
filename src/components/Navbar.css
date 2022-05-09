@@ -1,9 +1,38 @@
 .navbar-item {
-  padding-right: 2em;
+  margin-right: 2em;
+  font-family: "Thasadith", sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  position: relative;
+}
+
+.navbar-item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.navbar-item:hover:before {
+  transform: scaleX(1);
+}
+
+.navbar-style {
+  height: 70px;
 }
 
 @media only screen and (max-width: 600px) {
   .navbar-item {
-    padding-right: 0;
+    margin-right: 0;
+  }
+
+  .navbar-style {
+    height: auto;
   }
 }
