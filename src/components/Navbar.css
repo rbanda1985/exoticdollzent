@@ -27,6 +27,10 @@
   height: 70px;
 }
 
+.navbar-nav {
+  align-items: center;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar-item {
     margin-right: 0;
