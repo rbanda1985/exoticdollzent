@@ -37,27 +37,27 @@ const Navbar = () => {
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='navbar-item'>
-              <MDBNavbarLink active aria-current='page' href='#'>
+              <MDBNavbarLink active aria-current='page' href='/partypackages'>
                 Party Packages
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='navbar-item'>
-              <MDBNavbarLink active aria-current='page' href='#'>
+              <MDBNavbarLink active aria-current='page' href='/bookings'>
                 Book Now
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='navbar-item'>
-              <MDBNavbarLink active aria-current='page' href='#'>
+              <MDBNavbarLink active aria-current='page' href='/about'>
                 About Us
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='navbar-item'>
-              <MDBNavbarLink active aria-current='page' href='#'>
+              <MDBNavbarLink active aria-current='page' href='/contact'>
                 Contact Us
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='navbar-item'>
-              <MDBNavbarLink active aria-current='page' href='#'>
+              <MDBNavbarLink active aria-current='page' href='/careers'>
                 Careers
               </MDBNavbarLink>
             </MDBNavbarItem>
