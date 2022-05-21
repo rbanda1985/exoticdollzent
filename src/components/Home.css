@@ -79,17 +79,31 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+  margin-bottom: 5em;
 }
 
 .intro p:first-child {
   text-align: center;
   font-size: 1.3em;
   color: white;
+  text-decoration: underline;
 }
 
 .intro p:nth-child(2) {
   color: white;
   text-align: center;
+}
+
+.second-title {
+  margin-bottom: 5em;
+}
+
+.second-title p {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: larger;
 }
 
 @media only screen and (max-width: 600px) {
@@ -102,5 +116,7 @@
   }
   .intro {
     margin-top: 35em;
+    border: 1px solid red;
+    padding: 2em;
   }
 }

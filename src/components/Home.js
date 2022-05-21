@@ -1,4 +1,5 @@
 import React from 'react'
+import Carousel from './Carousel'
 import './Home.css'
 
 
@@ -19,6 +20,9 @@ const Home = () => {
         </div>
         <div className='second-title'>
           <p>We Specialize in...</p>
+          <div className='carousel-contain'>
+            <Carousel />
+          </div>
         </div>
         </div>
       </div>
