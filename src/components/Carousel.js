@@ -6,32 +6,20 @@ import {
   MDBCarouselElement,
   MDBCarouselCaption,
 } from 'mdb-react-ui-kit';
+import imageData from '../data';
 
 const Carousel = () => {
   return (
     <MDBCarousel showControls showIndicators>
       <MDBCarouselInner>
-        <MDBCarouselItem className='active'>
-          <MDBCarouselElement src='https://mdbootstrap.com/img/new/slides/041.webp' alt='...' />
-          <MDBCarouselCaption>
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </MDBCarouselCaption>
-        </MDBCarouselItem>
-        <MDBCarouselItem>
-          <MDBCarouselElement src='https://mdbootstrap.com/img/new/slides/042.webp' alt='...' />
-          <MDBCarouselCaption>
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </MDBCarouselCaption>
-        </MDBCarouselItem>
-        <MDBCarouselItem>
-          <MDBCarouselElement src='https://mdbootstrap.com/img/new/slides/043.webp' alt='...' />
-          <MDBCarouselCaption>
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </MDBCarouselCaption>
-        </MDBCarouselItem>
+        {
+          imageData.map((data, index) => <MDBCarouselItem key={index} item={data} className={index === 0 ? 'active' : ''}>
+            <MDBCarouselElement src={data.image} alt={data.alt} />
+            <MDBCarouselCaption>
+              <h5>{data.label}</h5>
+            </MDBCarouselCaption>
+          </MDBCarouselItem>)
+        }
       </MDBCarouselInner>
     </MDBCarousel>
   )
