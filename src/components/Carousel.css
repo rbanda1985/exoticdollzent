@@ -1,0 +1,75 @@
+.label {
+  color: white;
+  font-family: "Italianno", cursive;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.bachelor-party {
+  color: white;
+  font-family: "Italianno", cursive;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.away {
+  color: white;
+  font-family: "Italianno", cursive;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.golf {
+  color: white;
+  font-family: "Italianno", cursive;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.birthday {
+  color: black;
+  font-family: "Italianno", cursive;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.holiday {
+  color: black;
+  font-family: "Italianno", cursive;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.office {
+  color: white;
+  font-family: "Italianno", cursive;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.poker {
+  color: white;
+  font-family: "Italianno", cursive;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.sporting {
+  color: white;
+  font-family: "Italianno", cursive;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.yacht {
+  color: black;
+  font-family: "Italianno", cursive;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .d-none {
+    display: block !important;
+  }
+}

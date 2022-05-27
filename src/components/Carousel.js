@@ -7,6 +7,7 @@ import {
   MDBCarouselCaption,
 } from 'mdb-react-ui-kit';
 import imageData from '../data';
+import './Carousel.css'
 
 const Carousel = () => {
   return (
@@ -16,7 +17,7 @@ const Carousel = () => {
           imageData.map((data, index) => <MDBCarouselItem key={index} item={data} className={index === 0 ? 'active' : ''}>
             <MDBCarouselElement src={data.image} alt={data.alt} />
             <MDBCarouselCaption>
-              <h5>{data.label}</h5>
+              <h5 className={data.className}>{data.label}</h5>
             </MDBCarouselCaption>
           </MDBCarouselItem>)
         }

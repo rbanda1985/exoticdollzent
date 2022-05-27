@@ -2,47 +2,44 @@ const imageData = [
   {
     image: require('./assets/bachelor-party.jpg'),
     alt: 'Bachelor Party',
-    label: 'Bachelor Parties'
+    label: 'Bachelor Parties',
+    className: 'bachelor-party'
   },
   {
     image: require('./assets/birthday.jpg'),
     alt: 'Birthday Party',
-    label: 'Birthday Parties'
+    label: 'Birthday Parties',
+    className: 'birthday'
   },
   {
     image: require('./assets/going-away.jpg'),
     alt: 'Going Away Party',
-    label: 'Going Away Parties'
-  },
-  {
-    image: require('./assets/golf.jpg'),
-    alt: 'Golf Outing',
-    label: 'Golf Outings'
+    label: 'Going Away Parties',
+    className: 'away'
   },
   {
     image: require('./assets/holiday.jpg'),
     alt: 'Holiday Party',
-    label: 'Holiday Parties'
+    label: 'Holiday Parties',
+    className: 'holiday'
   },
   {
     image: require('./assets/office-party.jpg'),
     alt: 'Office Party',
-    label: 'Office Parties'
+    label: 'Office Parties',
+    className: 'office'
   },
   {
     image: require('./assets/poker.jpg'),
     alt: 'Poker Party',
-    label: 'Poker Parties'
-  },
-  {
-    image: require('./assets/sporting.jpg'),
-    alt: 'Sporting Event',
-    label: 'Sporting Events'
+    label: 'Poker Parties',
+    className: 'poker'
   },
   {
     image: require('./assets/strip-yacht.jpg'),
     alt: 'Boat Party',
-    label: 'Yacht Parties'
+    label: 'Yacht Parties',
+    className: 'yacht'
   }
 ]
 
