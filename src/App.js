@@ -1,3 +1,4 @@
+import React from 'react';
 import {Routes, Route} from 'react-router-dom'
 import './App.css';
 import Home from './components/Home';
@@ -7,6 +8,7 @@ import Booking from './components/Booking';
 import About from './components/About';
 import Contact from './components/Contact';
 import Careers from './components/Careers';
+
 
 function App() {
   return (

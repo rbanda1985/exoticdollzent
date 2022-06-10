@@ -1,15 +1,14 @@
 import React from 'react'
 import Carousel from './Carousel'
 import './Home.css'
+import TopImage from './TopImage'
+import image from '../assets/whitebackground.jpg'
 
 
 const Home = () => {
   return (
-    <div className='mainHome'>
-      <div className='container'>
-        <div className='banner-animation'>
-          <p>Let your fantasies run wild</p>
-        </div>
+    <>
+      <TopImage image={image} />
         <div className='intro'>
           <p>
             Welcome To Exotic Dollz Entertainment
@@ -24,8 +23,7 @@ const Home = () => {
             <Carousel />
           </div>
         </div>
-        </div>
-      </div>
+    </>
   )
 }
 
