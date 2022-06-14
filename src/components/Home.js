@@ -7,8 +7,8 @@ import image from '../assets/whitebackground.jpg'
 
 const Home = () => {
   return (
-    <>
-      <TopImage image={image} />
+    <div className='home-container'>
+      <TopImage image={image} className='top'/>
         <div className='intro'>
           <p>
             Welcome To Exotic Dollz Entertainment
@@ -23,7 +23,7 @@ const Home = () => {
             <Carousel />
           </div>
         </div>
-    </>
+    </div>
   )
 }
 

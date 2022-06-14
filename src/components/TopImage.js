@@ -5,7 +5,7 @@ import './TopImage.css';
 const TopImage = ({image}) => {
   return (
     <>
-      <div className="text-center d-flex justify-content-center align-items-center">
+      <div className="text-center d-flex justify-content-center align-items-center" style={{marginBottom: '15em'}}>
         <div className="bg-image image-container" style={{flex: "1" }}>
           <img
             src={image}

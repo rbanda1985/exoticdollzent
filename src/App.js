@@ -8,6 +8,7 @@ import Booking from './components/Booking';
 import About from './components/About';
 import Contact from './components/Contact';
 import Careers from './components/Careers';
+import Footer from './components/Footer'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/careers' element={<Careers />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
