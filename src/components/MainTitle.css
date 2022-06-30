@@ -1,0 +1,35 @@
+.main-title-container {
+  padding-top: 16em;
+  padding-bottom: 16em;
+  width: 80%;
+  margin: auto;
+  font-weight: 600;
+}
+
+.main-title-container h2 {
+  text-align: center;
+  color: lightblue;
+}
+
+.main-title-container p {
+  text-align: center;
+  color: white;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-title-container p {
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    padding-bottom: 5em;
+  }
+  .main-title-container h2 {
+    border-top: 1px solid white;
+    padding-top: 5em;
+  }
+  .main-title-container {
+    padding-bottom: 14em;
+    width: 100%;
+  }
+}

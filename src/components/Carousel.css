@@ -1,75 +1,17 @@
-.label {
-  color: white;
-  font-family: "Italianno", cursive;
-  font-size: 2em;
-  font-weight: 600;
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.bachelor-party {
-  color: white;
-  font-family: "Italianno", cursive;
-  font-size: 2em;
-  font-weight: 600;
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
 }
 
-.away {
-  color: white;
-  font-family: "Italianno", cursive;
-  font-size: 2em;
-  font-weight: 600;
-}
-
-.golf {
-  color: white;
-  font-family: "Italianno", cursive;
-  font-size: 2em;
-  font-weight: 600;
-}
-
-.birthday {
-  color: black;
-  font-family: "Italianno", cursive;
-  font-size: 2em;
-  font-weight: 600;
-}
-
-.holiday {
-  color: white;
-  font-family: "Italianno", cursive;
-  font-size: 2em;
-  font-weight: 600;
-}
-
-.office {
-  color: white;
-  font-family: "Italianno", cursive;
-  font-size: 2em;
-  font-weight: 600;
-}
-
-.poker {
-  color: white;
-  font-family: "Italianno", cursive;
-  font-size: 2em;
-  font-weight: 600;
-}
-
-.sporting {
-  color: white;
-  font-family: "Italianno", cursive;
-  font-size: 2em;
-  font-weight: 600;
-}
-
-.yacht {
-  color: black;
-  font-family: "Italianno", cursive;
-  font-size: 2em;
-  font-weight: 600;
-}
-
-@media (max-width: 768px) {
-  .d-none {
-    display: block !important;
-  }
+.swiper-slide img {
+  display: block;
+  width: 100%;
 }

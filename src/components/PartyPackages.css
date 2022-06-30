@@ -1,0 +1,122 @@
+.party-container {
+  background: url("../assets/black-silk.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.party-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#bachelor-party {
+  margin-bottom: 10em;
+  background-color: black;
+  color: white;
+}
+
+#bachelor-party h5 + p {
+  color: skyblue;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+#bachelor-party p + p {
+  text-align: start;
+  line-height: 1.4em;
+}
+
+#topless-waitress {
+  margin-bottom: 10em;
+  background-color: black;
+  color: white;
+}
+
+#topless-waitress h5 + p {
+  font-weight: 600;
+  font-size: 1em;
+  color: red;
+}
+
+#topless-waitress p + p {
+  text-align: start;
+  line-height: 1.4em;
+}
+
+#boat-yacht {
+  margin-bottom: 10em;
+  background-color: black;
+  color: white;
+}
+
+#boat-yacht h5 + p {
+  color: gold;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+#boat-yacht p + p {
+  text-align: start;
+  line-height: 1.4em;
+}
+
+#virtual {
+  margin-bottom: 10em;
+  background-color: black;
+  color: white;
+}
+
+#virtual h5 + p {
+  color: gold;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+#virtual p + p {
+  text-align: start;
+  line-height: 1.4em;
+}
+
+#birthday {
+  margin-bottom: 10em;
+  background-color: black;
+  color: white;
+}
+
+#birthday h5 + p {
+  color: red;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+#birthday p + p {
+  text-align: start;
+  line-height: 1.4em;
+}
+
+#holiday {
+  margin-bottom: 10em;
+  background-color: black;
+  color: white;
+}
+
+#holiday h5 + p {
+  color: red;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .party-image-container {
+    height: 95vh;
+  }
+  .party-image-container img {
+    height: 100%;
+    object-fit: cover;
+  }
+}

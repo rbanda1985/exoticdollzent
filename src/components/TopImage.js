@@ -2,11 +2,11 @@ import React from "react";
 import PropTypes from 'prop-types'
 import './TopImage.css';
 
-const TopImage = ({image}) => {
+const TopImage = ({image, title, classname}) => {
   return (
     <>
-      <div className="text-center d-flex justify-content-center align-items-center" style={{marginBottom: '15em'}}>
-        <div className="bg-image image-container" style={{flex: "1" }}>
+      <div className="text-center d-flex justify-content-center align-items-center">
+        <div className={classname === 'image-container' ? 'image-container bg-image' : 'party-image-container bg-image'} style={{flex: "1" }}>
           <img
             src={image}
             className="img-fluid shadow-4"
@@ -19,8 +19,8 @@ const TopImage = ({image}) => {
             style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}
           ></div>
         </div>
-        <p className="fade-in-text display-5">
-          Let your fantasies run wild
+        <p className="fade-in-text display-2">
+          {title}
         </p>
       </div>
     </>
@@ -28,7 +28,9 @@ const TopImage = ({image}) => {
 };
 
 TopImage.propTypes = {
-  image: PropTypes.string.isRequired
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  classname: PropTypes.string.isRequired
 }
 
 export default TopImage;

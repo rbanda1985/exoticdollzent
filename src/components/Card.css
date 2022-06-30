@@ -1,0 +1,45 @@
+#partyPackageLink {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 8em;
+  text-align: center;
+}
+
+#bookingLink {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 8em;
+  text-align: center;
+}
+
+.textOne {
+  text-align: center;
+  font-size: large;
+}
+
+.cardTitle {
+  text-align: center;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cardButton {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #partyPackageLink {
+    margin-bottom: 10em;
+  }
+  #bookingLink {
+    margin-bottom: 10em;
+  }
+}

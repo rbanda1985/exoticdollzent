@@ -1,6 +1,6 @@
 .home-container {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../assets/girls-background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/party-lights.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,49 +8,43 @@
 }
 
 .intro {
-  margin: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 80%;
-  border: 1px solid red;
+  width: 100%;
   padding: 4em;
   border-radius: 4px;
+  padding: 8em;
+  margin-top: 5em;
 }
 
 .intro p:first-child {
   text-align: center;
   font-size: 1.3em;
-  color: white;
+  color: lightblue;
   text-decoration: underline;
+  font-weight: 900;
 }
 
 .intro p:nth-child(2) {
   color: white;
   text-align: center;
+  font-weight: 600;
 }
 
-.second-title {
-  padding-bottom: 5em;
-  margin-top: 15em;
-}
-
-.second-title p {
-  text-align: center;
-  color: white;
-  font-weight: 400;
-  font-size: larger;
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10em;
 }
 
 @media only screen and (max-width: 600px) {
   .intro {
     width: 100%;
-    border: 1px solid red;
     padding: 2em;
-  }
-  .second-title {
-    margin-top: 10em;
+    margin-top: 8em;
   }
   .image-container {
     height: 95vh;
