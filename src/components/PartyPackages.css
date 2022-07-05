@@ -18,6 +18,7 @@
   margin-bottom: 10em;
   background-color: black;
   color: white;
+  overflow: hidden;
 }
 
 #bachelor-party h5 + p {
@@ -35,6 +36,7 @@
   margin-bottom: 10em;
   background-color: black;
   color: white;
+  overflow: hidden;
 }
 
 #topless-waitress h5 + p {
@@ -52,6 +54,7 @@
   margin-bottom: 10em;
   background-color: black;
   color: white;
+  overflow: hidden;
 }
 
 #boat-yacht h5 + p {
@@ -69,6 +72,7 @@
   margin-bottom: 10em;
   background-color: black;
   color: white;
+  overflow: hidden;
 }
 
 #virtual h5 + p {
@@ -86,6 +90,7 @@
   margin-bottom: 10em;
   background-color: black;
   color: white;
+  overflow: hidden;
 }
 
 #birthday h5 + p {
@@ -103,12 +108,54 @@
   margin-bottom: 10em;
   background-color: black;
   color: white;
+  overflow: hidden;
 }
 
 #holiday h5 + p {
   color: red;
   font-weight: 600;
   font-size: 1em;
+}
+
+.package-price-title {
+  text-align: center;
+  color: lightblue;
+  margin-bottom: 4em;
+}
+
+.price-list {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10em;
+  flex-wrap: wrap;
+}
+
+.price-list-one {
+  font-size: 1.3em;
+  color: lightblue;
+}
+
+.price-list-two {
+  font-size: 1.3em;
+  color: lightblue;
+}
+
+.disclaimer-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-bottom: 5em;
+}
+
+.disclaimer-container p {
+  font-weight: 600;
+}
+
+.disclaimer-container p + p {
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 600px) {
@@ -118,5 +165,16 @@
   .party-image-container img {
     height: 100%;
     object-fit: cover;
+  }
+  .price-list-one {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .price-list-two {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .package-price-title {
+    margin-bottom: 2em;
   }
 }

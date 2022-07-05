@@ -42,18 +42,8 @@ const Navbar = () => {
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='navbar-item'>
-              <MDBNavbarLink active aria-current='page' href='/bookings'>
-                Book Now
-              </MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem className='navbar-item'>
               <MDBNavbarLink active aria-current='page' href='/about'>
                 About Us
-              </MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem className='navbar-item'>
-              <MDBNavbarLink active aria-current='page' href='/contact'>
-                Contact Us
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem className='navbar-item'>
