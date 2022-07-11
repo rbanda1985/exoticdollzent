@@ -17,7 +17,7 @@ const cards = [
     textTwo: "Click the button below to start planning your night",
     button: 'Book Now',
     className: 'bookingLink',
-    link: '/bookings'
+    link: '/partypackages'
   }
 ];
 

@@ -7,7 +7,7 @@ import './About.css';
 const About = () => {
   return (
     <div className='about'>
-      <TopImage image={image} title='About Us'/>
+      <TopImage image={image} title='About Us' />
       <div className='about-us-container'>
         <p>Exotic Dollz and Entertainmnet</p> <p>is proud to offer Dallas with the sexiest and hottest female exotic dancers and topless/nude waitresses</p>
         <p>We offer Bachelor Parties - Boat Parties - Golf Outings - Poker Parties - Sporting Events - Going Away Parties - Divorce Parties - Office Parties - Holiday Parties - Birthday Parties or any kind of event you may have.</p>
