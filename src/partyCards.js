@@ -4,7 +4,7 @@ const partyCards = [
     alt: 'Bachelore Party',
     title: 'BACHELOR PARTY STRIPPERS',
     textOne: 'SOMETHING FOR EVERYONE',
-    textTwo: 'Need a stripper for your next bachelor party? Look no further than Exotic Dollz where we provide the sexiest strippers for bachelor parties. We know that getting married is a big step in your life, and we want to help ring in the chapter by celebrating with you. Congratulations and enjoy the best strippers that Exotic Dollz has to offer! Upgrade your party package to include a Lesbian Toy Show called "2 Girl Lesbian Show." End the evening sensual private lap dances and let these hotties blow your mind with their skills.',
+    textTwo: 'Need a stripper for your next bachelor party? Look no further than Exotic Dollz where we provide the sexiest strippers for bachelor parties. We know that getting married is a big step in your life, and we want to help ring in the chapter by celebrating with you. Congratulations and enjoy the best strippers that Exotic Dollz has to offer! Upgrade your party package to include a Lesbian Toy Show called "2 Girl Lesbian Show." End the evening with sensual private lap dances and let these hotties blow your mind with their skills.',
     button: 'Book Now',
     className: 'bachelor-party',
     link: 'https://form.jotform.com/221912691200042'
@@ -54,7 +54,7 @@ const partyCards = [
     alt: 'Holiday Girl',
     title: 'HOLIDAYS',
     textOne: 'TIS THE SEASON',
-    textTwo: 'Holidays can be boring if you dont have any plans. This holiday season include Exotic Dollz in your plans! Our dancers are ready to celebrate any holday with you at a moments notice! Let us dress up in any kind of outfit that strikes your mood.',
+    textTwo: 'Holidays can be boring if you dont have any plans. This holiday season include Exotic Dollz in your plans! Our dancers are ready to celebrate any holiday with you at a moments notice! Let us dress up in any kind of outfit that strikes your mood.',
     button: 'Book Now',
     link: 'https://form.jotform.com/221912691200042',
     className: 'holiday'

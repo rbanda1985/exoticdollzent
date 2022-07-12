@@ -27,7 +27,7 @@ const Footer = () => {
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <i className='fas fa-envelope me-3'></i>
-                info@exoticdollzent.com
+                exoticdollzent@gmail.com
               </p>
               <p>
                 <i className='fas fa-phone me-3'></i> (972) 839-9690
