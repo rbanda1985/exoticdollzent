@@ -30,7 +30,7 @@ const Footer = () => {
                 exoticdollzent@gmail.com
               </p>
               <p>
-                <i className='fas fa-phone me-3'></i> (972) 839-9690
+                <i className='fas fa-phone me-3'></i> (972) 710-0017
               </p>
             </div>
           </div>
